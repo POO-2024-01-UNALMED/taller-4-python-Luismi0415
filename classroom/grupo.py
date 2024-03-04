@@ -16,8 +16,8 @@ class Grupo:
         lista.append(alumno)
         self.listadoAlumnos = self.listadoAlumnos + lista
 
-    # def __str__(self):
-    #     pass
+    def __str__(self) -> str:
+        pass
 
     @ classmethod
     def asignarNombre(cls, nombre="Grado 6"):
